@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my work</title>
+	<meta name="description" content="Card Expansion Effect with SVG clipPath" />
+	<meta name="keywords" content="clipPath, svg, effect, layout, expansion, images, grid, polygon" />
+	<meta name="author" content="Claudio Calautti for Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/card.css" />
+	<link rel="stylesheet" type="text/css" href="css/pattern.css" />
+	<!--[if IE]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script>
+	if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+		var root = document.getElementsByTagName('html')[0];
+		root.setAttribute('class', 'ff');
+	};
+	</script>
+</head>
+
+<body class="demo-2">
+	<div class="container">
+		<header class="codrops-header">
+			<div class="codrops-links">
+				
+			</div>
+			<h1 class="demo2">Khoji-Bakhodir<span>Project</span></h1>
+			<nav class="codrops-demos">
+				<a href="index.html">Demo 1</a>
+				<a class="current-demo" href="index2.html">Demo 2</a>
+				<a href="index3.html">Demo 3</a>
+				<a href="index4.html">Demo 4</a>
+			</nav>
+		</header>
+		<div class="content">
+			<!-- trianglify pattern container -->
+			<div class="pattern pattern--hidden"></div>
+			<!-- cards -->
+			<div class="wrapper">
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="" xmlns:xlink="" viewBox="0 0 1920 500"
+							preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath1">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath1)" width="1920" height="500" xlink:href="img/a.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">BMW M4</h2>
+								<p class="card__subtitle">About</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+
+									<span class="meta__author">Bmw Power</span>
+									<span class="meta__date">07/07/2020</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, doloremque culpa?
+									Maiores dolore, omnis suscipit quisquam assumenda beatae velit ut veniam officia
+									dolorem quos consectetur cum id debitis voluptas facere earum labore ab cupiditate
+									odit vitae! Distinctio tenetur maxime incidunt quaerat eligendi ipsam hic! Quo eum
+									sequi sapiente perspiciatis quia non iure eius! Tenetur voluptates reprehenderit at
+									obcaecati earum aut perspiciatis, ullam iure. Nihil obcaecati quasi ex itaque
+									blanditiis iure odio quos omnis. Eaque, laudantium perspiciatis. Sint veritatis
+									culpa eveniet aut, omnis sunt placeat delectus odit explicabo iure neque consectetur
+									nostrum! Fugiat, fugit explicabo voluptatem aperiam molestias quas et saepe.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+							preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath2">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="img/b.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">AMG GT</h2>
+								<p class="card__subtitle">About</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+
+									<span class="meta__author">Khoji-Bakhodir</span>
+									<span class="meta__date">07/07/2020</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae omnis autem in unde
+									cum. Possimus doloribus consequuntur laudantium optio, quidem nobis nam, delectus
+									labore consectetur ipsam, eveniet saepe minus quis? Deserunt repellat dicta atque,
+									non impedit magni alias distinctio. Ab ratione vel molestiae nihil consequatur
+									quibusdam blanditiis aspernatur nam, voluptates praesentium! Nostrum, dolores! Dicta
+									labore minima, consectetur magnam architecto optio hic ducimus modi natus maiores
+									repellendus autem exercitationem quam id aut nam porro praesentium? Eaque optio non
+									maiores minima officia, cupiditate delectus mollitia iure, enim omnis sequi est
+									vitae similique error praesentium numquam accusamus? Eius perspiciatis vel possimus
+									quasi explicabo molestias quo quisquam in expedita officiis. Sequi ullam delectus
+									facere quia illum quis, necessitatibus hic incidunt, optio doloribus iusto, unde
+									mollitia? Non autem accusantium quas itaque tenetur dolorum odit eum minus quaerat!
+									Sunt ducimus, quo vel atque quod saepe eligendi repudiandae, quas similique qui
+									voluptates dolorum dolore excepturi, culpa minima?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+							preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath3">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath3)" width="1920" height="500" xlink:href="img/c.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">MASERATTI</h2>
+								<p class="card__subtitle">About</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<span class="meta__author">Khoji-Bakhodir</span>
+									<span class="meta__date">07/07/2020</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste omnis
+									voluptates facere tenetur sint perferendis. Labore quo, repellat quos sed tenetur
+									quaerat sequi. Beatae deleniti sapiente omnis suscipit dolorum quos ea ipsum
+									officiis sint autem officia temporibus modi error aspernatur ullam facere amet
+									soluta id explicabo eius maiores consectetur, magni quaerat! Similique odio suscipit
+									eligendi nulla molestias ducimus mollitia officia soluta neque maiores vel,
+									perspiciatis quia ab architecto sit facere sint provident, non sunt qui impedit
+									enim! Quae, hic repudiandae reiciendis illum quisquam tempora culpa! A sed et odio,
+									blanditiis alias atque hic labore aperiam tempore animi, dicta consequatur commodi
+									doloremque ullam, eum autem repellat cumque ipsa quod esse. Eos, pariatur? Incidunt
+									quos nihil porro odio temporibus vero sint ut ullam, quibusdam adipisci sequi quas
+									nemo nostrum nesciunt eaque quia, est nobis! Similique officiis nobis atque enim
+									laudantium suscipit hic quia culpa minima! Illum consequatur assumenda fuga
+									perspiciatis sed.3</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+							preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath4">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath4)" width="1920" height="500" xlink:href="img/d.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">AUDI</h2>
+								<p class="card__subtitle">About</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<span class="meta__author">Khoji-Bakhodir</span>
+									<span class="meta__date">07/07/2020</span>
+								</div>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga consequuntur nesciunt
+									ullam laudantium vitae nisi neque cupiditate laboriosam eligendi pariatur suscipit
+									vero dignissimos ipsam sed officiis placeat minima beatae, mollitia, illo sint
+									voluptate quas. Mollitia assumenda ullam quam aliquid, ducimus officia veniam. Iste,
+									rem amet provident dolorum nostrum quasi! Reprehenderit, consequatur sit vitae
+									inventore asperiores saepe reiciendis deleniti enim harum, quidem ipsam dolores
+									dolor nihil? Fugiat aliquid molestiae ipsa odit dolorem. Suscipit, possimus vitae
+									nemo ea voluptates ex deleniti quidem, maxime officia, ad vero sequi aliquid ullam
+									laboriosam. Nulla iure magnam eveniet aperiam sequi, cumque mollitia nisi neque
+									pariatur vitae sit! Sit, a. Fugiat ipsum laboriosam magnam atque illo error eveniet
+									deleniti reiciendis sapiente consequatur. Incidunt illum iusto cumque iure expedita
+									animi suscipit vero numquam minus voluptate totam delectus, atque laboriosam iste,
+									ipsam voluptatibus dolorem? Earum nulla cum voluptatem in, nam quaerat rem numquam
+									perferendis itaque, magnam velit facere fuga.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+							preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath5">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath5)" width="1920" height="500" xlink:href="img/e.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">FERRARI</h2>
+								<p class="card__subtitle">About</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<span class="meta__author">Khoji-Bakhodir</span>
+									<span class="meta__date">07/07/2020</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus inventore quae
+									fugit veritatis optio magni sed corrupti laudantium provident! Vel possimus eligendi
+									voluptatibus quae quo, ut, delectus dicta similique atque distinctio ducimus
+									voluptate consequuntur? Aperiam veniam adipisci hic consequuntur. Recusandae officia
+									reiciendis corporis dolor natus temporibus non consequuntur laudantium repudiandae
+									in. Maiores laborum nostrum enim dolorum repudiandae unde deleniti asperiores.
+									Provident cum a quos, in maiores impedit id vitae debitis ad molestias
+									necessitatibus eligendi odio officiis, quibusdam mollitia voluptatem ipsa quo?
+									Inventore dolor nesciunt ut eos asperiores deserunt iste. Tempore tempora, fugit
+									numquam sit sequi laborum quas laudantium. Ea vel harum officia cumque illum
+									distinctio, quidem quibusdam commodi voluptas nesciunt et exercitationem id
+									molestias vitae molestiae ratione modi labore facilis quo unde nam dignissimos
+									voluptates non. Illum atque dolores at velit, dolore est tenetur suscipit voluptas
+									minus maiores perspiciatis laborum impedit enim nihil repellat aliquid corporis, et
+									ab deleniti. Aliquid?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+							preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath6">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath6)" width="1920" height="500" xlink:href="img/f.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">LAMBORGHINI</h2>
+								<p class="card__subtitle">About</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<span class="meta__author">Khoji-Bakhodir</span>
+									<span class="meta__date">07/07/2020</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia assumenda quod
+									numquam consequatur impedit aliquid debitis rerum sint, quibusdam cupiditate cum
+									libero consectetur amet, porro nemo, nam sunt fugiat ea modi excepturi! Nam,
+									voluptate voluptas. Commodi dolore velit consequuntur ab voluptatum assumenda
+									doloremque? Est, dignissimos ut modi quibusdam numquam, laudantium placeat tenetur
+									culpa in aspernatur, ad molestiae repellendus doloribus! Assumenda voluptas
+									perferendis quas earum deserunt reiciendis eaque accusantium, quis distinctio autem
+									id molestiae incidunt. Esse voluptates aliquam, quod dicta illo dolorum dolores
+									tempora numquam mollitia laborum id quo a accusantium ipsum saepe beatae incidunt
+									sequi fugit, est omnis. Autem eveniet cum asperiores assumenda, esse quia dolorem ab
+									necessitatibus modi possimus odio maxime labore laudantium explicabo excepturi
+									commodi facere, fugit veniam suscipit perspiciatis facilis, saepe officiis mollitia.
+									Non iste molestias, perspiciatis cum doloremque recusandae natus commodi accusamus
+									aspernatur nobis eum facere in obcaecati tempore est aperiam necessitatibus
+									cupiditate similique! Eos, alias.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /cards -->
+		</div>
+		<p class="lal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut tempora provident saepe illum placeat,
+			vitae in numquam nobis ullam architecto at esse nemo cum. Quibusdam quam necessitatibus officia unde,
+			soluta in quis, nemo neque animi sint repellendus vero veritatis voluptatum odio. Vel nulla eaque rem a
+			quia voluptate in provident? Aut veritatis ipsa ipsum, esse sit unde sint eligendi, reiciendis,
+			inventore eaque rem! Laboriosam sed at aliquid provident enim, velit hic vitae delectus itaque eligendi
+			pariatur molestias praesentium deserunt illo. Optio repellendus consequuntur suscipit dolores sit
+			recusandae. Fuga optio facere nobis iusto porro veritatis. Eligendi delectus ducimus doloribus
+			laudantium animi!</p><!-- /content -->
+		<!-- Related demos -->
+		
+	</div>
+	<!-- /container -->
+	<!-- JS -->
+	<script src="js/vendors/trianglify.min.js"></script>
+	<script src="js/vendors/TweenMax.min.js"></script>
+	<script src="js/vendors/ScrollToPlugin.min.js"></script>
+	<script src="js/vendors/cash.min.js"></script>
+	<script src="js/Card-polygon.js"></script>
+	<script src="js/demo-2.js"></script>
+</body>
+
+</html>
